@@ -1,0 +1,23 @@
+{
+  "name": "learn-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rtxu/learn-typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rtxu/learn-typescript/issues"
+  },
+  "homepage": "https://github.com/rtxu/learn-typescript#readme",
+  "devDependencies": {
+    "typescript": "^3.7.4"
+  }
+}

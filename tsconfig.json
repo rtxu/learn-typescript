@@ -1,0 +1,13 @@
+{
+  // ref: https://www.typescriptlang.org/docs/handbook/compiler-options.html
+  "compilerOptions": {
+    "outDir": "build",
+    "target": "es2015", // 控制生成的代码符合何种语言标准
+    "module": "commonjs" // 控制生成的代码使用哪种模块加载方案(module-loading system)
+    // module 本质是为了解决 js 的代码复用问题
+    // ts 仅有一套 module 语法，但是分裂的社区有多种 module 加载方案，最常见的有：
+    // - CommonJS，NodeJS 使用到 module 加载方案
+    // - ES Module，es2015(aka es6) 标准制定的 module 加载方案
+    // 二者主要区别: https://nodejs.org/dist/latest-v12.x/docs/api/esm.html#esm_differences_between_es_modules_and_commonjs
+  }
+}
